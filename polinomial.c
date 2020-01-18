@@ -27,3 +27,25 @@ int penjumlahan (){
 	p0 = b+d;
 	
 	printf("Hasilnya adalah %dx^2 + %dx + %d ",p2,p1,p0);
+}
+
+int pengurangan (){
+	int a,b,c,d ;
+	int p2,p1,p0 ;
+	
+	printf("\nPengurangan \n");
+	printf("Masukkan a: ");
+	scanf("%d" , &a);
+	printf("Masukkan b: ");
+	scanf("%d" , &b);
+	printf("Masukkan c: ");
+	scanf("%d" , &c);
+	printf("Masukkan d: ");
+	scanf("%d" , &d);
+	
+	p2 = a;
+	p1 = -c;
+	p0 = b-d;
+	
+	printf("Hasilnya adalah %dx^2 + (%dx)+ (%d)", p2, p1,p0);
+}
